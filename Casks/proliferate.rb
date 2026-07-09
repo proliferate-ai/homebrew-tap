@@ -1,9 +1,9 @@
 cask "proliferate" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.12"
-  sha256 arm:   "f576904a1e4e48e0a80a7d5a877f3bb6bc1cfca0d34b1da4404cfd3592a1a808",
-         intel: "0500fb36afd5ab0b4bc5f2ff7d1e084adc1033a804050a82a697b80321a83c33"
+  version "0.3.13"
+  sha256 arm:   "edcec0c84e3bbff0709ec6bf45e2748107a6a0c17f2c5f0a4b1e77d97be99d51",
+         intel: "4c40c91931398a2358bdcd552148430ae9d189a6b0146d2965e2e1f1837d3595"
 
   url "https://downloads.proliferate.com/desktop/stable/Proliferate_#{version}_#{arch}.dmg"
   name "Proliferate"
